@@ -1,31 +1,20 @@
-# ObjectRecognitionAndroidApp
-This is an Android app which uses Clarifai API to recognize objects. The purpose of this application is to help the visually impaired recognize objects.
+# Clarifai Android Starter
 
-The User Interface and working of the app:
+This is a simple project showing how to use the Clarifai API in Android. It uses the [Clarifai Java Client](https://github.com/Clarifai/clarifai-java) to perform Concept recognition.
 
-Step 1:
+<img src="http://i.imgur.com/D782NYS.png" />
 
-The application has a very simple UI so that it is easy to use for blind people with a screen reader. 
-The home screen consists of just one button called CAPTURE.
-The user can just say the word "CAPTURE", and since voice recognition is activated by default, camera is automatically opened.
-The user has to focus the phone on the object which they want to recognize and capture the image.
+## Building and Running
 
-Step 2:
+To set your environment up for Android development, you'll need to install the
+[Java SE Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+and [Android Studio](https://developer.android.com/studio/index.html).
 
-The user has to say one out of these 5 words to choose a model:
+This project will compile in the standard manner through Android Studio or `./gradlew clean build` in your terminal. You just need to provide `clarifai_id` and `clarifai_secret` string resources
+where it says `TODO` in [`strings.xml`](app/src/main/res/values/strings.xml).
 
-1. General
-2. Color
-3. Wedding
-4. Travel
-5. Food
+## Where to look
 
-Step 3:
+`RecognizeConceptsActivity` contains most of the non-boilerplate code. In particular, `RecognizeConceptsActivity.onImagePicked` makes the API call to Clarifai.
 
-The image is converted into a byte array and sent to the API for recognition. According to the chosen model, the user receives a list of objects that are there in the picture based on probability.
-
-How to choose a model? 
-
-It is the user's choice on what model to use. For example, if the user wants to  know if there is food on the table, he/she can capture and say "GENERAL". If he/she wants to know what kind of food is on the table, he/ she should capture the image and say "FOOD". Likewise, if the user is color blind and wants to know the color of a shirt, he/she should say "COLOR".
-
-This app was used in real-time by two people with visual impairments and were greatly appreciated.
+You can also look at `RecognizeConceptsAdapter.onBindViewHolder` to see how we display the information that the API returns to the user.
