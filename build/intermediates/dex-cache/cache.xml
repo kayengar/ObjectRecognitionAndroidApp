@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/karthik/.gradle/caches/modules-2/files-2.1/net.schmizz/sshj/0.10.0/35d313db208a25189962266a9bd36553310c65f6/sshj-0.10.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="35d313db208a25189962266a9bd36553310c65f6">
+        <dex dex="/home/karthik/Downloads/clarifai-android-starter-master/app/build/intermediates/pre-dexed/debug/sshj-0.10.0_acf8fac4ec9d91ff24f916ac822c0cbeab5bdd1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karthik/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b8019b6249bb05d81d3a3094e468753e2b21311">
+        <dex dex="/home/karthik/Downloads/clarifai-android-starter-master/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.7_fc89d0ba762d7ca687941b85f1d7593b1f6e1cb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karthik/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.50/f82f869cbf31fdb3419487dd58f4189c33ec9acd/bcpkix-jdk15on-1.50.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f82f869cbf31fdb3419487dd58f4189c33ec9acd">
+        <dex dex="/home/karthik/Downloads/clarifai-android-starter-master/app/build/intermediates/pre-dexed/debug/bcpkix-jdk15on-1.50_c7dd1c95ef898ca71e3ce865578c030498cda0c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/karthik/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.50/be504b4901d75cbe129a178f5830e6c358ec214c/bcprov-jdk15on-1.50.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="be504b4901d75cbe129a178f5830e6c358ec214c">
+        <dex dex="/home/karthik/Downloads/clarifai-android-starter-master/app/build/intermediates/pre-dexed/debug/bcprov-jdk15on-1.50_806776b7f071ac72659fcdaf6057eedbc2959aac.jar" />
+    </item>
+
+</items>
